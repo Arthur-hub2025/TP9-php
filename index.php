@@ -2,7 +2,7 @@
 $servername = "localhost"; 
 $username = "root";  
 $password = "root";  
-$dbname = "junia.sql"; 
+$dbname = "bibliothequemangas"; 
 
 try {
     $dbPDO = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password); 
