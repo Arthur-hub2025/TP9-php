@@ -16,4 +16,3 @@ try {
     echo "La connexion a échoué : " . $e->getMessage();
 }
 ?>
-
